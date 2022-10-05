@@ -1,6 +1,6 @@
-package ObserverPattern;
+package ObserverPattern.simple;
 
-public class SimpleObserver {
+public class SimpleObserver implements Observer {
     private int value;
     private Subject simpleSubject;
 

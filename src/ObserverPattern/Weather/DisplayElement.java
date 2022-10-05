@@ -1,2 +1,5 @@
-package ObserverPattern.Weather;public class DisplayElement {
+package ObserverPattern.Weather;
+
+public interface DisplayElement {
+    void display();
 }

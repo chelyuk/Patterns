@@ -1,4 +1,4 @@
-package ObserverPattern;
+package ObserverPattern.simple;
 
 import java.util.ArrayList;
 
@@ -7,7 +7,7 @@ public class SimpleSubject implements Subject {
 	private int value = 0;
 
 	public SimpleSubject() {
-		observers = new ArrayList<Observer>();
+		observers = new ArrayList<>();
 	}
 
 	public void registerObserver(Observer o) {

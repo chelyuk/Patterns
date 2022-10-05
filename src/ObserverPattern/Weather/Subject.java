@@ -1,2 +1,7 @@
-package ObserverPattern.Weather;public class Display {
+package ObserverPattern.Weather;
+
+public interface Subject {
+    void registerObserver(Observer o);
+    void removeObserver(Observer o);
+    void notifyObservers();
 }
