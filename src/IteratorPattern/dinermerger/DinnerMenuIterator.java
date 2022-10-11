@@ -1,6 +1,6 @@
 package IteratorPattern.dinermerger;
 
-public class DinnerMenuIterator implements Iterator<MenuItem> {
+public class DinnerMenuIterator implements Iterator {
     MenuItem[] items;
     int position = 0;
     public DinnerMenuIterator(MenuItem[] items) {
